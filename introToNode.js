@@ -4,8 +4,11 @@
 
 var superheroes = require('superheroes');
 
+var superHeroList = superheroes.all;
+
 var superHeroNames = superheroes.random();
 
+console.log(superHeroList);
 console.log(superHeroNames);
 
 
